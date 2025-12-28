@@ -1,0 +1,9 @@
+body {
+  background: url('res/backimage.png') repeat center center fixed;
+  background-size: 200px;
+}
+h1 {
+	font-family: "Comic Sans MS";
+	color: white;
+	text-align: center;
+}
