@@ -20,5 +20,16 @@
     "review_count": 25,
     "version": "1.0.0",
     "is_game": true
+  },
+  {
+    "id": 2,
+    "name": "Bubble - публичный блокнот",
+    "description": "Проект bubble от 10 летнего кости который называется Публичный блокнот",
+    "apk_file": "https://zaxaraswerty.github.io/repos/reoldmarket/NewProject47 (2).apk",
+    "icon": "https://zaxaraswerty.github.io/repos/reoldmarket/photo_2026-03-16_21-45-04.jpg",
+    "rating": 5,
+    "review_count": 25,
+    "version": "1.0.0",
+    "is_game": false
   }
 ]
