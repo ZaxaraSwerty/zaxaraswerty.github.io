@@ -6,6 +6,10 @@
 body {
     font-family: "Tahoma", sans-serif;
 }
+#days-counter {
+    margin-left: auto;
+    width: 290px;
+}
 </style>
 </head>
 <body>
@@ -13,11 +17,11 @@ body {
 <div id="days-counter" style="font-family: sans-serif; font-size: 1.2em;">
   WAP портал живет уже <span id="days-value">0</span> дней
 </div>
-<a href="https://zaxaraswerty.github.io/wap-portal"><img src="https://zaxaraswerty.github.io/wap-portal/banner.png"></a>
+<a href="https://zaxaraswerty.github.io/wap-portal"><img src="https://zaxaraswerty.github.io/wap-portal/banner.png"></a> <br> <br> <br>
 <textarea disabled><a href="https://zaxaraswerty.github.io/wap-portal"><img src="https://zaxaraswerty.github.io/wap-portal/banner.png"></a></textarea>
   <script>
   function updateCounter() {
-    const startDate = new Date('2026-04-20');
+    const startDate = new Date('2008-06-16');
     const now = new Date();
     const diffInMs = now - startDate;
     const daysPassed = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
