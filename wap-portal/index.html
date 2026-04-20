@@ -1,0 +1,30 @@
+<html lang="ru">
+<head>
+<title>ZaxaraSwerty WAP портал | свежие игры и приложения для вашего телефона!</title>
+<meta charset="UTF-8">
+<style>
+body {
+    font-family: "Tahoma", sans-serif;
+}
+</style>
+</head>
+<body>
+<img src="logo0.png"> <br>
+<div id="days-counter" style="font-family: sans-serif; font-size: 1.2em;">
+  WAP портал живет уже <span id="days-value">0</span> дней
+</div>
+<a href="https://zaxaraswerty.github.io/wap-portal"><img src="https://zaxaraswerty.github.io/wap-portal/banner.png"></a>
+<textarea disabled><a href="https://zaxaraswerty.github.io/wap-portal"><img src="https://zaxaraswerty.github.io/wap-portal/banner.png"></a></textarea>
+  <script>
+  function updateCounter() {
+    const startDate = new Date('2026-04-20');
+    const now = new Date();
+    const diffInMs = now - startDate;
+    const daysPassed = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+    document.getElementById('days-value').innerText = daysPassed > 0 ? daysPassed : 0;
+  }
+
+  updateCounter();
+</script>
+</body>
+</html>
